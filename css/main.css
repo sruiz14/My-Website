@@ -1,0 +1,333 @@
+body{
+    background-image: url(/images/fondo-pagina.jpg);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    background-image: url(/images/fondo-pagina.jpg);
+    width: 100%;
+    height: 85px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav .nav-main-part{
+    width: 900px;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .nav-main-part p{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav .nav-main-part .logo img{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    align-items: center;
+    justify-items: center;
+}
+
+header nav .nav-second-part{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .nav-second-part a{
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+main section{
+    background-image: url(/images/fondo-pagina2.jpg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 560px;
+}
+
+main section .main-img-section{
+    list-style: none;
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .main-img-section img{
+    width: 210px;
+    height: 350px;
+}
+
+main section .main-text-section{
+    width: 75%;
+    height: auto;
+    display: flex;
+    list-style: none;    
+    justify-content: center;
+    align-items: center;
+}
+
+section .main-text-section h2{
+    font-size: 50px;
+    margin-right: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section .main-text-section p{
+    margin-right: 30px;
+    text-align: justify;
+    line-height: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main .second-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(/images/fondo-pagina.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main .second-section .second-text-section{
+    list-style: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .second-text-section h3{
+    margin-left: 15px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.second-section .second-text-section p{
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+    line-height: 25px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.second-section .second-text-section p strong a{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+.third-section{
+    width: 100%;
+    height: 650px;
+    background-image: url(/images/fondo-pagina2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section ul{
+    margin: 0px;
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+
+.third-section h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.third-section p{
+    text-align: justify;
+}
+
+.third-section img{
+    width: 400px;
+    height: 220px;
+}
+
+.fourth-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url(/images/fondo-pagina.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-section ul{
+    width: auto;
+    height: auto;
+    margin-right: 35px;
+    list-style: none;
+}
+
+.fourth-section h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.fourth-section p{
+    text-align: justify;
+}
+
+.fourth-section img{
+    width: 250px;
+    height: 130px;
+}
+
+.fifth-section{
+    width: 100%;
+    height: 650px;
+    background-image: url(/images/fondo-pagina2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section ul{
+    margin: 0px;
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+
+.fifth-section h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.fifth-section p{
+    text-align: justify;
+    margin-right: 35px;
+}
+
+.fifth-section img{
+    width: 400px;
+    height: 220px;
+}
+
+.sixth-section{
+    width: 100%;
+    height: 750px;
+    background-image: url(/images/fondo-pagina.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-section ul{
+    margin: 0px;
+    list-style: none;
+    height: auto;
+    width: auto;
+}
+
+.sixth-section h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.sixth-section p{
+    text-align: justify;
+}
+
+.sixth-section img{
+    width: 400px;
+    height: 400px;
+}
+
+.seventh-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url(/images/fondo-pagina2.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.seventh-section ul{
+    width: auto;
+    height: auto;
+    margin-right: 35px;
+    list-style: none;
+}
+
+.seventh-section h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.seventh-section p{
+    text-align: justify;
+}
+
+.seventh-section img{
+    width: 250px;
+    height: 130px;
+}
+
+footer{
+    background-image: url(/images/fondo-pagina3.jfif);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Tomar tamaño Original */
+    background-size: initial;
+    /* Central la imagen en el centro */
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+footer img{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+footer a img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 15px;
+}
